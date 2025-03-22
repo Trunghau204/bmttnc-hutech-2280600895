@@ -9,4 +9,4 @@ input_list = input ("Nhập danh sách các số, cách nhau bằng dấu phẩy
 numbers = list(map(int, input_list.split(',')))
 # Sử dụng hàm và in kết quả
 tong_chan = tinh_tong_so_chan (numbers)
-print ("Tồng các số chẵn trong List là:", tong_chan)
+print ("Tổng các số chẵn trong List là:", tong_chan)
